@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<element>
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" version="3.1">
   <display-name>Minorproject</display-name>
   <welcome-file-list>
     <welcome-file>index.html</welcome-file>
-    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.html</welcome-file>
     <welcome-file>index.jsp</welcome-file>
     <welcome-file>default.html</welcome-file>
-    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.html</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
   <servlet>
@@ -474,6 +473,10 @@
     <servlet-name>Question48</servlet-name>
     <url-pattern>/Question48</url-pattern>
   </servlet-mapping>
+  
+  
+  <!-- Existing servlet configurations up to Question49 -->
+  
   <servlet>
     <servlet-name>Question49</servlet-name>
     <servlet-class>Question49</servlet-class>
@@ -482,6 +485,7 @@
     <servlet-name>Question49</servlet-name>
     <url-pattern>/Question49</url-pattern>
   </servlet-mapping>
+  
   <servlet>
     <servlet-name>Question50</servlet-name>
     <servlet-class>Question50</servlet-class>
@@ -490,19 +494,5 @@
     <servlet-name>Question50</servlet-name>
     <url-pattern>/Question50</url-pattern>
   </servlet-mapping>
- 
   
-  
-</web-app>
-</element>
-<web-app xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd" version="2.4" id="WebApp_ID">
-	<display-name>Minorproject</display-name>
-	<welcome-file-list>
-		<welcome-file>index.html</welcome-file>
-		<welcome-file>index.htm</welcome-file>
-		<welcome-file>index.jsp</welcome-file>
-		<welcome-file>default.html</welcome-file>
-		<welcome-file>default.htm</welcome-file>
-		<welcome-file>default.jsp</welcome-file>
-	</welcome-file-list>
 </web-app>
